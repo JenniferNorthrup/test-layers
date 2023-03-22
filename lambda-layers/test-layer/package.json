@@ -1,0 +1,15 @@
+{
+  "name": "test-layer",
+  "version": "1.0.0",
+  "description": "Test run for a lambda layer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && mkdir -p nodejs && cp -r node_modules nodejs/ && zip -r test-layer.zip nodejs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "base-lambda",
+  "version": "1.0.0",
+  "description": "Base lambda for lambda layers test run",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && zip -r base-lambda.zip ./*"
+  },
+  "author": "",
+  "license": "ISC"
+}

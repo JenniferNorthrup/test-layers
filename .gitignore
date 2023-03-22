@@ -1,0 +1,6 @@
+*.zip
+
+.env
+.idea/
+.terraform/
+*/node_modules/
